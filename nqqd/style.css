@@ -1,0 +1,196 @@
+/*-------------------------- 公共 设置 ----------------------------*/
+img {
+	margin: 0px;
+	vertical-align: top;
+	text-align: left;
+}
+
+a{
+	text-decoration: none;
+}
+a:link {color:#0072bc;text-decoration: none;}
+a:visited {color:#999;text-decoration: none;}
+a:hover {color:#f29040;text-decoration: underline;}
+a img {
+	border:0px;
+}
+form {
+	margin:0px;
+}
+
+th {
+	background-color:#ccc;
+}
+td {
+	background-color:#cbdeff;
+}
+table {
+	text-align:center;
+}
+
+b {
+	font-size:110%;
+	color:#f29040;
+}
+/*-------------------- 公共设置结束 --------------------------------*/
+
+body {
+	margin: 0;
+	color:#555;
+	text-align: center;
+	background-color:#f9f9ff;
+	background: url("images/body_bg.jpg");
+	background-attachment:fixed;
+	font-family: geneva, arial, helvetica, sans-serif;
+	font-size:12px;
+}
+
+/*-------------------------- 导航 ----------------------------*/
+#navigation {
+	margin:0 auto;
+	margin-top:20px;
+	height:150px;
+	width:960px;
+	border: 1px solid #ccc;
+	border-bottom:0px;
+}
+
+/*-------------------------- 导航结束 ----------------------------*/
+
+/*-------------------------- 主容器 ----------------------------*/
+#container {
+	text-align:left;
+	border: 1px solid #ccc;
+	border-top:0px;
+	background-color: #fff;
+	width: 960px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	line-height:20px;
+}
+
+#chContainer {
+	background:url("images/ch_bg.jpg");
+}
+/*-------------------------- 主容器结束 ----------------------------*/
+
+/*-------------------------- 侧栏 ----------------------------*/
+#subNav {
+	padding:10px;
+}
+
+.list {
+	text-align:center;
+	border-top:2px solid #212121;
+	border-bottom:1px dashed #212121;
+	margin:5px 0px;
+	padding-top:10px;
+	height:30px;
+}
+#side {
+	width: 156px;
+	background: url("images/contact.jpg") no-repeat;
+	float: left;
+	line-height:25px;
+	padding-left:24px;
+	padding-right:10px;
+}
+
+#chSide {
+	color:#ccc;
+	width:260px;
+	background-color: #17334e;
+	float:left;
+}
+
+
+#telephone {
+	margin-top:10px;
+	font-size:18px;
+	color:#f29040;
+}
+/*-------------------------- 侧栏结束 ----------------------------*/
+
+/*-------------------------- 内容 ----------------------------*/
+#subContent1 {
+	width: 300px;
+	background-color: #17334e;
+	float: left;
+	color: #ccc;
+}
+
+#items {
+	padding-left:10px;
+}
+
+#news {
+	padding:10px;
+}
+#copyright {
+	margin:0px 5px;
+	margin-top:30px;
+	padding:5px;
+	color:#999;
+	font-size:10px;
+	text-align:right;
+	line-height:16px;
+}
+	
+#subContent2 {
+	background:url("images/project.jpg") no-repeat top center;
+	margin:0px;
+	padding-top:55px;
+	width:460px;
+	float:right;
+}
+
+#mainContent {
+	float: right;
+	width:770px;
+	margin:0px;
+}
+#chContent {
+	float: right;
+	width:700px;
+	margin:0px
+}
+
+.texts {
+	padding:10px;
+	margin:10px;
+}
+
+/*-------------------------- 内容结束 ----------------------------*/
+
+.items {
+	height:168px;
+	margin:12px;
+	width:674px;
+	background:url("images/item_bg.jpg");
+	border:1px solid #bdbdbd;
+}
+
+.items img {
+	float:left;
+}
+
+.projects {
+	border:1px solid #bdbdbd;
+	height:198px;
+	width:138px;
+	margin:5px;
+	float:left;
+}
+
+.clearfloat {
+	clear: both;
+}
+.more {
+	text-align:right;
+	font-size:10px;
+}
+.itemTitle {
+	font-size:16px;
+	font-weight:bold;
+	color:#7fab8b;
+}

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/xiada.org/!svn/ver/42/phppackages/PHPLinq/Adapter
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/xiada.org/!svn/ver/42/phppackages/PHPLinq/Adapter/Exception.php
+END
+Mysqli.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/xiada.org/!svn/ver/42/phppackages/PHPLinq/Adapter/Mysqli.php
+END
+Abstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/xiada.org/!svn/ver/42/phppackages/PHPLinq/Adapter/Abstract.php
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/xiada.org/!svn/ver/42/phppackages/PHPLinq/Adapter/index.php
+END

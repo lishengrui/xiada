@@ -1,0 +1,276 @@
+/* ------------------
+ * gobal settings
+ * --------------- */
+body {
+	border-width: 0px;
+	padding: 0px;
+	margin: 0px;
+	font-size: 90%;
+}
+/* ------------------
+ * header
+ * --------------- */
+#header {
+	margin: 0;
+	position: absolute;
+	background: url(../images/bg4.jpg) top repeat-x;
+	width: 100%;
+	height: 122px;
+	border-bottom: 1px solid #EBEBEB;
+}
+#title {
+	position: absolute;
+	float: left;
+	top: 45px;
+	left: 355px;
+	width: 40%;
+	color: white;
+}
+#login {
+	position: relative;
+	float: right;
+	top: 45px;
+	right: 115px;
+	text-align: right;
+}
+.lightlink {
+	color: #D5E5F4;
+	text-decoration: none;
+}
+#header img {
+	border: 1px solid #000;
+	margin-right: 5px;
+	float: left;
+	width: 120px;
+	height: 120px;
+}
+#firstimg {
+	margin-left: 100px;
+}
+.imagehover:hover {
+	opacity: 0;
+	filter: alpha(opacity = 0);
+}
+/*-------------------
+ *Comman Settings
+ *-----------------*/
+a {
+	color: white;
+	text-decoration: none;
+}
+/* ------------------
+ * container
+ * --------------- */
+#leftpage {
+	position: absolute;
+	height: 100%;
+	width: 248px;
+	top: 142px;
+	left: 100px;
+	z-index: 1;
+	padding-top: 3px;
+	border-top: 1px solid #BFBFBF;
+	border-right: 1px solid #BFBFBF;
+}
+#centerpage {
+	position: absolute;
+	height: 100%;
+	width: auto;
+	top: 142px;
+	left: 356px;
+	right: 100px;
+	padding: 3px;
+	border-left: 1px solid #EBEBEB;
+	border-top: 1px solid #EBEBEB;
+}
+
+/* ------------------
+ * left navigator
+ * --------------- */
+.navigator {
+	width: 248px;
+}
+#school-navigator ul {
+	list-style: none;
+	float: left;
+	padding: 0;
+	margin-left: 0px;
+	margin-top: 3px;
+	margin-bottom: 0px;
+	margin-right: 3px;
+}
+.school-button{
+	float: left;
+	margin-top: 3px;
+	border: 1px solid #535243;
+	color: black;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	font-size: 16px;
+	padding: 10px 8px;
+}
+
+.school-button:hover {
+	background: #6F6F6F;
+	color: white;
+}
+.hilight-button{
+	background: black;
+	color: white;
+}
+
+
+.navigator-section {
+	background: #A1A1A1;
+	color: white;
+	margin: 0px;
+	padding: 0px;
+	padding-top: 1px;
+	height: 40px;
+}
+
+/* ------------------
+ * tables
+ * --------------- */
+#school-tables {
+	background: #F2F0EE;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	padding: 5px;
+}
+.table-title {
+	font-size: 16px;
+	height: 42px;
+	background:white;
+	color: black;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	text-align: center;
+	line-height: 2.5;
+	border: 1px solid #535243;
+}
+.hor-minimalist-b {
+	margin-top: 5px;
+	margin-bottom: 20px;
+	
+	width: 100%;
+	table-layout: fixed;
+	
+	margin-right:6px;
+	text-align: left;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+table#empty tr{
+	float:left;
+}
+
+.hor-minimalist-b th {
+	font-size: 14px;
+	font-weight: normal;
+	color: #039;
+	padding: 10px 8px;
+	border-top: 1px solid #6678b1;
+	border-bottom: 2px solid #6678b1;
+}
+.hor-minimalist-b td {
+	border-bottom: 1px solid #ccc;
+	color: #669;
+	background: white;
+	padding: 10px 8px;
+	word-wrap : break-word ;
+	overflow:hidden;
+}
+.hor-minimalist-b td.key {
+	background: #F6F7BA;
+	border-bottom: 1px solid #ccc;
+	color: #669;
+	width: 100px;
+	padding: 10px 8px;
+}
+.hor-minimalist-b td.key:hover {
+	background: black;
+	color: white;
+}
+
+.hor-minimalist-b .url .key {
+	background: #0143FF;
+	color: white;
+}
+
+.hor-minimalist-b .todo .key {
+	background: #5BB663;
+	color: white;
+}
+.hor-minimalist-b .done .key {
+	background: #8C5EE9;
+	color: white;
+}
+.hor-minimalist-b .empty .key {
+	background: #DF8230;
+	color: white;
+}
+.hor-minimalist-b .empty .key:hover {
+	background: red;
+	color: white;
+}
+
+.hor-minimalist-b .value:hover {
+	background: #EAE6CE;
+	color: black;
+}
+.hor-minimalist-b .todo .value:hover {
+	background: #E2F3B6;
+	color: black;
+}
+.hor-minimalist-b .done .value:hover {
+	background: #CEB6F3;
+	color: black;
+}
+.hor-minimalist-b .empty .value:hover {
+	background: #F3EFB6;
+	color: black;
+}
+.hor-minimalist-b .url .value:hover {
+	background: #B6C4F3;
+	color: black;
+}
+
+/*
+.hor-minimalist-b .url .value {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: wrap;
+}
+*/
+
+/*-------------------
+ *school prority
+ *-----------------*/
+.school-prority-normal{
+	border: 1px solid #B7DE6C;
+}
+.school-prority-high{
+	border: 1px solid #DF8230;
+}
+.school-prority-low{
+	border: 1px solid #F6F7BA;
+}
+.school-prority-partial-done{
+	border: 1px solid #0143FF;
+}
+
+
+/* ------------------
+ * footer
+ * --------------- */
+#footer {
+	margin-top: 15px;
+	padding: 15px 0;
+	text-align: center;
+}

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/xiada.org/!svn/ver/42/phppackages/PHPLinq/Adapter/Pdo
+END
+Mssql.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/xiada.org/!svn/ver/42/phppackages/PHPLinq/Adapter/Pdo/Mssql.php
+END
+Sqlite.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/xiada.org/!svn/ver/42/phppackages/PHPLinq/Adapter/Pdo/Sqlite.php
+END
+Mysql.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/xiada.org/!svn/ver/42/phppackages/PHPLinq/Adapter/Pdo/Mysql.php
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/xiada.org/!svn/ver/42/phppackages/PHPLinq/Adapter/Pdo/index.php
+END
